@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="FRONT DESK HELPER" company="FDH (FRONT DESK HELPER)" webLink="https://appndcc.firebaseapp.com/" view-date="2021-10-01" view-index="0" gantt-divider-location="1245" resource-divider-location="697" version="3.1.3100" locale="es_ES">
+    <description><![CDATA[Empresa desarollada para impulsar el corebuisnes de la empresa.]]></description>
+    <view zooming-state="default:11" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="419" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="298" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="297" order="2"/>
+        <field id="tpd12" name="Costo" width="99" order="3"/>
+        <field id="tpd6" name="Duración" width="128" order="4"/>
+        <option id="color.recent"><![CDATA[#66ff66 #ccff33 #ccccff #ff99cc #cc33ff #ffff00 #33cc00 #33ff00 #e1e1e1 #6666ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="207" order="0"/>
+        <field id="1" name="Función" width="144" order="1"/>
+        <field id="tpc0" name="Funcion" width="171" order="2"/>
+        <field id="tpc1" name="FuncionEmpresa" width="171" order="3"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Ninguna">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="1" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="275" name="Evaluar requisitos y evaluar proyecto" color="#8cb6ce" meeting="false" start="2022-12-10" duration="1" complete="0" thirdDate="2022-07-02" thirdDate-constraint="1" expand="true">
+            <task id="287" name="Recoleccion de requisitos" color="#8cb6ce" meeting="false" /task>
+        </task>
+        <task id="76" name="Analisis y Diseño" color="#000000" meeting="false" start="2022-03-01" duration="330" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" priority="2" expand="false" cost-manual-value="60.0" cost-calculated="false">
+            <task id="313" name="Incorporar mejoras en diseño" meeting="false" start="2022-11-05" duration="1" complete="0" expand="true">
+                <task id="327" name="Validacion y compatibilidad de sofware" meeting="false" start="2022-11-05" duration="1" complete="0" expand="true"/>
+                <task id="324" name="Codificar implementacion" color="#8cb6ce" meeting="false" start="2022-11-05" duration="1" complete="0" thirdDate="2022-01-03" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="310" name="Analisis de requisitos" meeting="false" start="2022-12-10" duration="1" complete="0" expand="true"/>
+            <task id="312" name="Revicion de diseño" meeting="false" start="2022-12-10" duration="1" complete="0" expand="true"/>
+            <task id="314" name="Conseguir aprobacion para continuar" meeting="false" start="2022-12-10" duration="1" complete="0" expand="true"/>
+            <task id="78" name="Diseño de Diagramas de UML" color="#ccff33" meeting="false" start="2022-12-24" duration="7" complete="2" thirdDate="2022-02-21" thirdDate-constraint="0" priority="2" expand="true">
+                <task id="79" name="Diagrama de caso de uso" color="#cccccc" meeting="false" start="2022-12-24" duration="1" complete="0" thirdDate="2022-02-14" thirdDate-constraint="0" priority="2" expand="true">
+                    <notes><![CDATA[Un caso de uso es la descripción de una acción o actividad. Un diagrama de caso de uso es una descripción de las actividades que deberá realizar alguien o algo para llevar a cabo algún proceso. Los personajes o entidades que participarán en un diagrama de caso de uso se denominan actores.]]></notes>
+                    <depend id="80" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="80" name="Diagrama de Negocios" color="#66ffff" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2022-12-25" duration="2" complete="0" thirdDate="2022-02-22" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Un modelo de negocio es una "representación abstracta de una organización, ya sea de manera textual o gráfica, de todos los conceptos relacionados, acuerdos financieros, y el portafolio central.]]></notes>
+                    <depend id="81" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="81" name="Diagrama de Secuencias" color="#6666ff" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2022-12-27" duration="2" complete="0" thirdDate="2022-02-23" thirdDate-constraint="0" expand="true" cost-manual-value="1000000.0" cost-calculated="false">
+                    <notes><![CDATA[El diagrama de secuencia es un tipo de diagrama usado para modelar interacción entre objetos en un sistema según UML. En inglés se pueden encontrar como "sequence diagram", "event-trace diagrams".]]></notes>
+                    <depend id="82" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="82" name="Diagrama de Tiempos" color="#cc33ff" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2022-12-29" duration="1" complete="15" thirdDate="2022-02-24" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Un diagrama de tiempos o cronograma es una gráfica de formas de ondas digitales que muestra la relación temporal entre varias señales, y cómo varía cada señal en relación a las demás. Es el detalle minucioso de las actividades que desempeña o que va a desempeñar una empresa al realizar un evento o una serie de eventos.]]></notes>
+                    <depend id="83" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="83" name="Diagrama de Actividades" color="#ff3333" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="false" start="2022-12-30" duration="1" complete="0" thirdDate="2022-02-25" thirdDate-constraint="0" expand="true">
+                    <depend id="84" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="84" name="Diagrama de clases" color="#ccff33" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="true" start="2022-12-31" duration="0" complete="0" thirdDate="2022-03-02" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[En ingeniería de software, un diagrama de clases en Lenguaje Unificado de Modelado es un tipo de diagrama de estructura estática que describe la estructura de un sistema mostrando las clases del sistema, sus atributos, operaciones, y las relaciones entre los objetos.]]></notes>
+                    <depend id="292" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="85" name="Diseño de prototipos" color="#8cb6ce" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" project="true" start="2022-03-01" duration="322" complete="0" thirdDate="2022-02-11" thirdDate-constraint="1" priority="4" expand="true">
+                <task id="169" name="Prototipo de bajo nivel" color="#ff0066" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="false" start="2022-03-01" duration="3" complete="0" thirdDate="2022-03-01" thirdDate-constraint="1" expand="true"/>
+                <task id="170" name="Prototipo de mediano nivel" color="#8cb6ce" meeting="false" start="2023-01-03" duration="5" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true">
+                    <depend id="127" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="171" name="Prototipo de alto nivel" color="#33ff33" meeting="false" start="2023-01-10" duration="7" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Un prototipo de alta fidelidad es un prototipo digital que permite al usuario verlo en una pantalla e interactuar con él como si fuera el mismo servicio. Esto permite realizar pruebas (“testeo”) con usuarios y realizar mejoras en la solución.
+]]></notes>
+                </task>
+            </task>
+            <task id="109" name="Realizar modelos de datos primarios" color="#6666ff" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2023-01-18" duration="2" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true">
+                <task id="172" name="Datos de respuesta y envio" color="#cc9900" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2023-01-18" duration="2" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="true"/>
+            </task>
+            <task id="111" name="Diseño de arquitectura" color="#8cb6ce" meeting="false" start="2023-01-24" duration="1" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="73" name="Programacion" color="#00ff33" meeting="false" start="2022-11-05" duration="114" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="4" expand="false" cost-manual-value="400.0" cost-calculated="false">
+            <task id="316" name="Revisión de especificaciones de diseño" meeting="false" start="2022-12-10" duration="1" complete="0" expand="true"/>
+            <task id="320" name="Diseño detallado de modelos" meeting="false" start="2022-12-10" duration="1" complete="0" expand="true"/>
+            <task id="318" name="Diseño detallado de modulos" meeting="false" start="2022-12-10" duration="1" complete="0" expand="true"/>
+            <task id="102" name="Codificacion de estructura de la aplicacion" color="#8cb6ce" meeting="false" start="2022-11-05" duration="83" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true">
+                <task id="330" name="Injeccion de modulos,librerias,frameworks" meeting="false" start="2022-11-05" duration="1" complete="0" expand="true"/>
+                <task id="125" name="Ijeccion de dependencias" color="#993300" meeting="false" start="2023-01-18" duration="6" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="4" expand="true">
+                    <notes><![CDATA[Verificar que tipos de dependecias seran a utilizar y cuales sons compatibles
+]]></notes>
+                    <task id="133" name="Elaboracion y construccion de Frameworks" color="#ff3333" meeting="false" start="2023-01-18" duration="1" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true" cost-manual-value="20.0" cost-calculated="false"/>
+                    <task id="137" name="Elaboracion y construccion de Librerias" color="#ff00ff" meeting="false" start="2023-01-21" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true" cost-manual-value="120.0" cost-calculated="false"/>
+                </task>
+                <task id="139" name="Documentacion" color="#8cb6ce" meeting="false" start="2023-01-24" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="4" expand="true">
+                    <notes><![CDATA[Definir Documentacion acerca de librerias o framwork a utilizar
+]]></notes>
+                </task>
+            </task>
+            <task id="105" name="Implementacion en el servidor" color="#ff3300" meeting="false" start="2023-01-08" duration="20" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="true" cost-manual-value="50.0" cost-calculated="false">
+                <notes><![CDATA[Crear el servidor e implementar construccion basica acerca de este.]]></notes>
+                <task id="127" name="Evaluar y actualizar Fimware para el dispositivo" color="#8cb6ce" meeting="false" start="2023-01-08" duration="1" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="0" expand="true"/>
+                <task id="129" name="Definir Estructura de datos" color="#8cb6ce" meeting="false" start="2023-01-24" duration="2" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                <task id="140" name="Midelware para Definir peticiones y respuestas" color="#cccc00" meeting="false" start="2023-01-25" duration="1" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                <task id="141" name="Estructura y definicion de provedores" color="#00ffcc" meeting="false" start="2023-01-25" duration="2" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                <task id="126" name="Actualizar y analizar espacio de hosting" color="#000000" meeting="false" start="2023-01-24" duration="4" complete="0" thirdDate="2022-03-22" thirdDate-constraint="0" priority="0" expand="true">
+                    <task id="168" name="Definir Rutas y accesos" color="#8cb6ce" meeting="false" start="2023-01-24" duration="4" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="true"/>
+                </task>
+            </task>
+            <task id="103" name="Implementacion de Base de datos" color="#8cb6ce" meeting="false" start="2023-01-31" duration="10" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true">
+                <task id="132" name="Definir Estructura de datos" color="#ff00ff" meeting="false" start="2023-01-31" duration="2" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                <task id="155" name="Codificacion de nuevas relaciones" color="#00ff66" meeting="false" start="2023-02-04" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="4" expand="true"/>
+                <task id="156" name="Actualizacion de implementacion con el servidor" color="#8cb6ce" meeting="false" start="2023-02-07" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="4" expand="true"/>
+            </task>
+            <task id="107" name="Desarollo del Aplicativo" color="#e1e1e1" meeting="false" start="2023-02-07" duration="20" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true">
+                <task id="146" name="Creacion de Estructura MVVM" color="#33ff00" meeting="false" start="2023-02-07" duration="17" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="true">
+                    <task id="147" name="Creacion de respositorios de obtencion de datos" color="#8cb6ce" meeting="false" start="2023-02-07" duration="4" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="true"/>
+                    <task id="148" name="Creacion y definicion de Utilidades" color="#8cb6ce" meeting="false" start="2023-02-11" duration="5" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                    <task id="149" name="Creacion de Casos de uso" color="#8cb6ce" meeting="false" start="2023-02-18" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                    <task id="150" name="Desarollo de conexion con la vista" color="#8cb6ce" meeting="false" start="2023-02-21" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="159" name="Creacion de Conexiones" meeting="false" start="2023-02-21" duration="3" complete="0" expand="true">
+                    <task id="160" name="Creacion de Api" color="#8cb6ce" meeting="false" start="2023-02-21" duration="1" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true" cost-manual-value="15.0" cost-calculated="false"/>
+                    <task id="161" name="Desarollo de peticiones GraphQL" color="#8cb6ce" meeting="false" start="2023-02-21" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="163" name="Implementacion de Authenticaciones" color="#8cb6ce" meeting="false" start="2023-02-21" duration="6" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true">
+                    <task id="164" name="Authentiacion con Google" color="#cc33ff" meeting="false" start="2023-02-21" duration="1" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                    <task id="165" name="Authenticacion con Facebook" color="#ffff00" meeting="false" start="2023-02-22" duration="1" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                    <task id="166" name="Authenticacion con Microsot" color="#33cc00" meeting="false" start="2023-02-25" duration="2" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+        <task id="89" name="Implantación" color="#000000" meeting="false" start="2023-02-28" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="0" expand="false" cost-manual-value="50.0" cost-calculated="false">
+            <task id="97" name="Actualizacion del hosting y Web" color="#8cb6ce" meeting="false" start="2023-02-28" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+            <task id="95" name="Publicacion de aplicacion" color="#8cb6ce" meeting="false" start="2023-02-28" duration="3" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="87" name="Pruebas" color="#ff99cc" meeting="false" start="2023-02-25" duration="8" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="false" cost-manual-value="60.0" cost-calculated="false">
+            <task id="99" name="Pruebas de integracion" color="#8cb6ce" meeting="false" start="2023-02-25" duration="1" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="100" name="Pruebas unitarias" color="#8cb6ce" meeting="false" start="2023-02-28" duration="1" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="101" name="Prubas de Carga y Respuesta" color="#8cb6ce" meeting="false" start="2023-02-28" duration="5" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="90" name="Adquisisciones" color="#ccccff" meeting="false" project="true" start="2023-03-01" duration="10" complete="0" thirdDate="2022-04-28" thirdDate-constraint="0" priority="3" expand="false" cost-manual-value="1800.0" cost-calculated="false">
+            <task id="92" name="Repositorios" color="#8cb6ce" meeting="false" start="2023-03-01" duration="6" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" expand="true" cost-manual-value="100.0" cost-calculated="false"/>
+            <task id="94" name="Compra de Equipos de trabajo" color="#ffff66" meeting="false" start="2023-03-01" duration="10" complete="0" thirdDate="2022-02-11" thirdDate-constraint="0" priority="2" expand="true" cost-manual-value="1700.0" cost-calculated="false"/>
+        </task>
+    </tasks>
+    <resources>
+        <custom-property-definition id="tpc0" name="Funcion" type="text" default-value="Analista"/>
+        <custom-property-definition id="tpc1" name="FuncionEmpresa" type="text" default-value="Jefe de proyecto"/>
+        <resource id="3" name="DIAS RONAL JENRY ENRIQUE" function="3" contacts="1255664@senati.pe" phone="963259057">
+            <rate name="standard" value="2200"/>
+            <custom-property definition-id="tpc1" value="Jefe de Empresa"/>
+        </resource>
+        <resource id="1" name="Edwin Paz Huarahuara Cuchuirumi" function="2" contacts="1edw333@gmail.com" phone="9963423132">
+            <rate name="standard" value="2000"/>
+            <custom-property definition-id="tpc0" value="Programador S"/>
+        </resource>
+        <resource id="0" name="Norman Dino Carlos Cabrera" function="8" contacts="nromandino1@gmail.com " phone="967013820">
+            <rate name="standard" value="1900"/>
+            <custom-property definition-id="tpc1" value="Departamento de diseño"/>
+            <custom-property definition-id="tpc0" value="Diseñador"/>
+        </resource>
+        <resource id="2" name="RUBEN VICTOR CALLACONDO BELIZARIO" function="6" contacts="1234448@senati.pe" phone="928988904">
+            <rate name="standard" value="2000"/>
+            <custom-property definition-id="tpc1" value="Valoracion"/>
+            <custom-property definition-id="tpc0" value="Recursos Humanos"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="170" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="94" resource-id="3" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="84" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="169" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="171" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="111" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="102" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="126" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="127" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="155" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="107" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="147" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="164" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="165" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="100" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="101" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="95" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="3" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="3" function="3" responsible="false" load="30.0"/>
+        <allocation task-id="89" resource-id="3" function="3" responsible="false" load="80.0"/>
+        <allocation task-id="78" resource-id="3" function="Default:1" responsible="false" load="10.0"/>
+        <allocation task-id="289" resource-id="3" function="3" responsible="false" load="60.0"/>
+        <allocation task-id="170" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="84" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="169" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="171" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="172" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="111" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="102" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="125" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="133" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="137" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="105" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="126" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="127" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="155" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="160" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="161" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="165" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="166" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="92" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="90" resource-id="1" function="5" responsible="false" load="30.0"/>
+        <allocation task-id="73" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="103" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="1" function="5" responsible="false" load="10.0"/>
+        <allocation task-id="79" resource-id="1" function="Default:1" responsible="true" load="80.0"/>
+        <allocation task-id="78" resource-id="1" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="289" resource-id="1" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="169" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="109" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="94" resource-id="0" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="84" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="111" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="102" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="125" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="139" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="127" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="155" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="107" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="148" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="149" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="160" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="161" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="165" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="166" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="97" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="95" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="0" function="Default:1" responsible="false" load="50.0"/>
+        <allocation task-id="76" resource-id="0" function="8" responsible="false" load="80.0"/>
+        <allocation task-id="73" resource-id="0" function="8" responsible="false" load="90.0"/>
+        <allocation task-id="78" resource-id="0" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="289" resource-id="0" function="4" responsible="false" load="10.0"/>
+        <allocation task-id="170" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="109" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="94" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="84" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="171" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="111" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="102" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="139" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="168" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="127" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="155" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="150" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="160" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="2" function="4" responsible="false" load="80.0"/>
+        <allocation task-id="89" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="103" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="73" resource-id="2" function="6" responsible="false" load="10.0"/>
+        <allocation task-id="90" resource-id="2" function="6" responsible="true" load="90.0"/>
+        <allocation task-id="78" resource-id="2" function="Default:1" responsible="false" load="10.0"/>
+        <allocation task-id="289" resource-id="2" function="6" responsible="true" load="20.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Programor Junior"/>
+        <role id="2" name="Desarollador Senior"/>
+        <role id="3" name="Jefe de proyecto"/>
+        <role id="4" name="Analista"/>
+        <role id="5" name="Desarollador de Base de datos"/>
+        <role id="6" name="Gestor De personal"/>
+        <role id="7" name="Practicante"/>
+        <role id="8" name="Diseñador"/>
+        <role id="9" name="Gerente de Outsoursing"/>
+        <role id="10" name="Perito"/>
+    </roles>
+</project>

@@ -1,0 +1,43 @@
+{
+  "name": "servertypescripta1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts --exec ts-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/geojson-merge": "^1.1.1",
+    "@types/mapbox-gl": "^2.7.2",
+    "apollo-server-express": "^3.3.0",
+    "debug": "^2.6.9",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.12.0",
+    "graphql-upload": "^13.0.0",
+    "i": "^0.3.7",
+    "mapbox-gl": "^2.8.2",
+    "mariadb": "^2.5.6",
+    "mssql": "^7.3.1",
+    "mysql": "^2.18.1",
+    "npm": "^8.11.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "type-graphql-dataloader": "^0.4.1",
+    "typeorm": "^0.2.37",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.13",
+    "@types/graphql-upload": "^8.0.11",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^16.9.6",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}

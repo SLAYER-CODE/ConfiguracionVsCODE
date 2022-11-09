@@ -1,0 +1,17 @@
+rootProject.name = 'AppTestTypescriptA3'
+include ':react-native-blur-overlay'
+project(':react-native-blur-overlay').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-blur-overlay/android')
+include ':@react-native-community_blur'
+project(':@react-native-community_blur').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/blur/android')
+include ':react-native-blurry'
+project(':react-native-blurry').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-blurry/android')
+include ':react-native-blur'
+project(':react-native-blur').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-blur/android')
+include ':react-native-radial-gradient'
+project(':react-native-radial-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-radial-gradient/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir,   '../node_modules/react-native-camera/android')
+include ':react-native-mmkv'
+project(':react-native-mmkv').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mmkv/android/')

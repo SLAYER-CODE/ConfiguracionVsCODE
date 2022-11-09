@@ -1,0 +1,52 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "name": "Python: Archivo actual",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+
+              "args": ["-n",
+                "-vvvvv",
+                "-d",
+                "!R",
+                "!M","-Ecu","fu","UsersFilterImportant.txt",
+                "--all",
+                "!T",
+                "-cT"]
+            // "args": ["-n",
+            //     "-vvvvv",
+            //     "-d",
+            //     "!R",
+            //     "--pwdGhater",
+            //     "--pwdFile",
+            //     "passwors.txt",
+            //     "-lpwu",
+            //     "3",
+            //     "-pcTu",
+            //     "0.3",
+            //     "-fsuh",
+            //     "finalsaveusers.txt",
+            //     "--subNoActive",
+            //     "-lup",
+            //     "15",
+            //     "-tuc",
+            //     "0.5",
+            //     "-tup",
+            //     "0.14",
+            //     "!U",
+            //     "--all",
+            //     "!T",
+            //     "-cT"]
+            
+        }
+    ]
+}

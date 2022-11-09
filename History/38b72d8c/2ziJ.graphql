@@ -1,0 +1,3 @@
+query COMPROBATION_SESSIONS($token: String!) {
+    comprobationUser(token: $token)
+}

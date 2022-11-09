@@ -1,0 +1,12 @@
+query COMPROBATION_SESSIONS($token: String!) {
+    comprobationUser(token: $token)
+}
+
+ mutation ADD_USER($createSessionsMyval: UsersInput!) {
+    createSessions(myval: $createSessionsMyval) {
+      email
+      birthday
+      random_code
+      photo
+    }
+  }
